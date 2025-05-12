@@ -10,16 +10,22 @@
 #type -p -> verifica se o comando está instalado
 
 # -----------------------------------
-#!/bin/bash 
-echo "Digite seu nome: "
-read nome
-echo "Olá, $nome!"
-#------------------------------------
 
-# o que é o whiptail?
-# o whiptail é um programa que permite criar caixas de diálogo em scripts de shell
-# ele é usado para criar interfaces gráficas simples em scripts de shell
-# --msgbox é uma opção do whiptail que cria uma caixa de mensagem
-whiptail --msgbox "oi" 0 0 
+# echo "Digite seu nome: "
+# read nome
+# echo "Olá, $nome!"
+
 
 #------------------------------------
+
+# # o que é o whiptail?
+# # o whiptail é um programa que permite criar caixas de diálogo em scripts de shell
+# # ele é usado para criar interfaces gráficas simples em scripts de shell
+# # --msgbox é uma opção do whiptail que cria uma caixa de mensagem
+# whiptail --msgbox "oi" 0 0 
+
+#------------------------------------
+
+
+
+#----------------------------------
