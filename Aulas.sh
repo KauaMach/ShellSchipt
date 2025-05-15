@@ -10,7 +10,6 @@
 #type -p -> verifica se o comando está instalado
 
 # -----------------------------------
-
 # echo "Digite seu nome: "
 # read nome
 # echo "Olá, $nome!"
@@ -29,3 +28,22 @@
 
 
 #----------------------------------
+#!/usr/bin/env bash
+
+#variáveis
+#e mais leve rodar(Expandir) uma variavel 
+#do que rodar um comando
+
+#Constantes -> é Uma variável que não pode ser alterada -> somente leitura
+declare -r VARIAVEL="valor" #variável constante | Variaveis somente leitura 
+readonly VARIAVEL #torna a variável somente leitura
+#Não podem ser alteradas ou removidas no ambiente atual
+#somente podem ser removidas no ambiente global ou outro ambiente
+unset VARIAVEL #remove a variável
+
+
+#comandos 
+export <variavel> -> exporta a variável para o ambiente Global
+unset <variavel> -> remove a variável do ambiente global
+
+
